@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
