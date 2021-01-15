@@ -20,4 +20,61 @@ img {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    width: 90%;
 }
+
+
+/* Header Start */
+header {}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.main-nav ul.main-manu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+.logo {
+    width: 110px;
+}
+
+.main-manu {
+    display: flex;
+}
+
+.main-nav ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.main-manu li a {
+    text-decoration: none;
+    color: #262626;
+    padding-bottom: 2px;
+}
+
+.main-manu li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+.right-menu {
+    display: flex;
+}
+
+.right-menu li {
+    list-style: none;
+}
+
+.right-menu li a {}
+
+.right-menu li a:hover {}
+
+/* Header End */
